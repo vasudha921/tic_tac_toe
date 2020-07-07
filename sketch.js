@@ -5,6 +5,7 @@ var Engine = Matter.Engine,
  
 var particles = [];
 var plinkos = [];
+var division = []; 
 
 var divisionHeight=300;
 var score =0;
@@ -15,8 +16,8 @@ function setup() {
   ground = new Ground(width/2,height,width,20);
 
 
-   for (var k = 0; k <=width; k = k + 80) {
-     divisions.push(new Divisions(k, height-divisionHeight/2, 10, divisionHeight));
+   for (var k = 0; k <= width; k = k + 80) {
+     division.push(new divisions(k, height-divisionHeight/2, 10, divisionHeight));
    }
 
 

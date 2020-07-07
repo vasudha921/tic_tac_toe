@@ -4,6 +4,29 @@
     <script src="libraries/p5.sound.min.js"></script>
     <script src="libraries/matter.js"></script>
     <script src="js/ground.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDah7mTpS9Fyb_HHIiVd5Yg33k_Zw9OrKk",
+    authDomain: "project-33-4953a.firebaseapp.com",
+    databaseURL: "https://project-33-4953a.firebaseio.com",
+    projectId: "project-33-4953a",
+    storageBucket: "project-33-4953a.appspot.com",
+    messagingSenderId: "263070939659",
+    appId: "1:263070939659:web:f51b05fb383b844873e50e",
+    measurementId: "G-ZT5HBYLC29"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
    
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
